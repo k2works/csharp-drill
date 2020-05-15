@@ -22,6 +22,12 @@
 
 ### 構築
 
+```powershell
+dotnet new sln -o .
+dotnet sln .\csharp-drill.sln add .\unit-testing-using-dotnet-test\PrimeService\PrimeService.csproj
+dotnet sln .\csharp-drill.sln add .\unit-testing-using-dotnet-test\PrimeService.Tests\PrimeService.Tests.csprj
+```
+
 #### xUnit を使用した C#の単体テスト
 
 ```powershell
